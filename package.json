@@ -1,0 +1,14 @@
+{
+    "name": "erfgoedpublicaties",
+    "version": "0.0.0",
+    "private": false,
+    "scripts": {
+      "compile-css": "sass static/scss/app.scss static/css/app.css -I node_modules --quiet-deps"
+    },
+    "dependencies": {
+        "pyoes": "https://gitpkg.now.sh/OnroerendErfgoed/pyoes/npm-packages/pyoes"
+    },
+    "devDependencies": {
+        "sass": "^1.22.12"
+    }
+}

@@ -1,0 +1,57 @@
+.logo-block {
+    width: 700px !important;
+}
+
+.book-item {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 45px 35px -15px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+}
+
+.book-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@font-face {
+    font-family: "Flanders Art Sans Light";
+    src: url("../fonts/FlandersArtSans-Light.eot");
+    src: url("../fonts/FlandersArtSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/FlandersArtSans-Light.woff") format("woff"), url("../node_modules/pyoes/fonts/FlandersArtSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Flanders Art Sans";
+    src: url("../fonts/FlandersArtSans-Regular.eot");
+    src: url("../fonts/FlandersArtSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/FlandersArtSans-Regular.woff") format("woff"), url("../node_modules/pyoes/fonts/FlandersArtSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Flanders Art Sans Medium";
+    src: url("../fonts/FlandersArtSans-Medium.eot");
+    src: url("../fonts/FlandersArtSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FlandersArtSans-Medium.woff") format("woff"), url("../node_modules/pyoes/fonts/FlandersArtSans-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Flanders Art Sans Bold";
+    src: url("../fonts/FlandersArtSans-Bold.eot");
+    src: url("../fonts/FlandersArtSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FlandersArtSans-Bold.woff") format("woff"), url("../node_modules/pyoes/fonts/FlandersArtSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+  }
