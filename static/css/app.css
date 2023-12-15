@@ -13281,8 +13281,8 @@ span#cookieconsent:desc {
   margin-bottom: 0.5rem;
 }
 
-.logo-block {
-  width: 700px !important;
+.logo-block h1 {
+  padding-top: 25px !important;
 }
 
 .book-item {
